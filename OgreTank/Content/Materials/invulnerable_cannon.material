@@ -1,0 +1,48 @@
+material Invulnerable
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.980392 0.737255 0.0901961 1
+			diffuse 0.980392 0.737255 0.0901961 1
+			specular 0.9 0.9 0.9 1 30
+		}
+
+	}
+
+}
+
+
+
+material pipe_body
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+
+
+material pipe_head
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.898039 0.631373 0.290196 1
+			diffuse 0.898039 0.631373 0.290196 1
+			specular 0.9 0.9 0.9 1 30
+		}
+
+	}
+
+}

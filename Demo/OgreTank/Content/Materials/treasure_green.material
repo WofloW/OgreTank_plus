@@ -1,0 +1,93 @@
+material 15-Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.133333 0.121569 0.121569 1
+			diffuse 0.133333 0.121569 0.121569 1
+			specular 0.9 0.9 0.9 1 20
+
+			texture_unit
+			{
+				texture metal2.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material 21-Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0.9 0.9 0.9 1 20
+
+			texture_unit
+			{
+				texture metal.jpg
+				transform 0.15 0 0 0 0 0.15 0 -0.5 0 0 1 0 0 0 0 1
+			}
+		}
+
+	}
+
+}
+
+
+
+material box
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.137255 0.352941 0.12549 1
+			diffuse 0.137255 0.352941 0.12549 1
+			specular 0.45 0.45 0.45 1 30
+		}
+
+	}
+
+}
+
+
+
+material chest
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 0.894118 0.00784314 1
+			diffuse 1 0.894118 0.00784314 1
+			specular 0.45 0.45 0.45 1 20
+		}
+
+	}
+
+}
+
+
+
+material green_frame
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.00784314 0.882353 0.266667 1
+			diffuse 0.00784314 0.882353 0.266667 1
+			specular 0.45 0.45 0.45 1 30
+		}
+
+	}
+
+}

@@ -1,0 +1,14 @@
+material bottle-tmp
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0.745098 0.419608 1
+			diffuse 0 0.745098 0.419608 1
+			specular 0.45 0.45 0.45 1 30
+		}
+
+	}
+
+}

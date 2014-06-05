@@ -1,0 +1,91 @@
+material ball
+{
+	technique
+	{
+		pass
+		{
+			specular 0.9 0.9 0.9 1 20
+
+			texture_unit
+			{
+				texture metal2.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material chest
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.980392 0.882353 0.00784314 1
+			diffuse 0.980392 0.882353 0.00784314 1
+			specular 0.45 0.45 0.45 1 20
+		}
+
+	}
+
+}
+
+
+
+material lock
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0.9 0.9 0.9 1 20
+
+			texture_unit
+			{
+				texture metal.jpg
+				transform 0.15 0 0 0 0 0.15 0 0 0 0 1 0 0 0 0 1
+			}
+		}
+
+	}
+
+}
+
+
+
+material red_frame
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 0 0 1
+			diffuse 1 0 0 1
+			specular 0.45 0.45 0.45 1 30
+		}
+
+	}
+
+}
+
+
+
+material top_red
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.705882 0.0509804 0.027451 1
+			diffuse 0.705882 0.0509804 0.027451 1
+			specular 0.45 0.45 0.45 1 30
+		}
+
+	}
+
+}

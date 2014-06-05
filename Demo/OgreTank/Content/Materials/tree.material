@@ -1,0 +1,31 @@
+material branch
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.392157 0.109804 0 1
+			diffuse 0.392157 0.109804 0 1
+			specular 0.27 0.27 0.27 1 10
+		}
+
+	}
+
+}
+
+
+
+material leaves
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.145098 0.596078 0.109804 1
+			diffuse 0.145098 0.596078 0.109804 1
+			specular 0.18 0.18 0.18 1 10
+		}
+
+	}
+
+}

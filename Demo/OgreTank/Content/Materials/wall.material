@@ -1,0 +1,20 @@
+material wall1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0.45 0.45 0.45 1 20
+
+			texture_unit
+			{
+				texture Brick_Non_Uniform_Running_bump.jpg
+				transform 25 0 0 0 0 0.5 0 0 0 0 1 0 0 0 0 1
+			}
+		}
+
+	}
+
+}
